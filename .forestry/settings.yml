@@ -4,11 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: PORTFOLIO
+- type: heading
+  label: ABOUT ME
 - type: jekyll-pages
-  label: Pages
+  label: CONTACT ME
   create: all
 - type: jekyll-posts
-  label: Posts
+  label: INTEREST
   create: all
 upload_dir: uploads
 public_path: "/uploads"
